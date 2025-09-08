@@ -8,12 +8,12 @@ subtitle: ''
 description: '这里记录了 Kitra 在计算机技术上的胡思乱想，分享编程实践、技术笔记和校园生活，写给同时热爱技术的你。'
 keywords: 计算机,技术博客,KitraMGP,遐想空间,hnust
 author: KitraMGP
-language: zh-cn
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://kitramgp.cn/blog
+url: https://blog.kitramgp.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: acorn
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
