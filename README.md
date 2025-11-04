@@ -17,7 +17,7 @@ pnpm i
 构建博客静态站点：
 
 ```bash
-hexo generate
+pnpm run generate
 ```
 
 > 如果要实时监测文件更改，需要使用 hexo generate --watch
@@ -25,5 +25,24 @@ hexo generate
 运行本地预览：
 
 ```bash
-hexo server
+pnpm run server
+```
+
+## 部署到远程服务器
+
+首先确保安装了 Rust，且 cargo 可以使用。
+
+在 `blog-deployer` 目录创建 `.env` 文件，编辑：
+
+```plaintext
+SSH_HOST=<SSH主机>
+SSH_PORT=22
+SSH_USERNAME=<用户名>
+REMOTE_PATH=/var/www/kitrablog/blog（远程地址，本地public目录中的文件会被上传到blog目录中）
+```
+
+在根目录执行：
+
+```bash
+pnpm run deploy
 ```
