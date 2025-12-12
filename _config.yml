@@ -40,8 +40,11 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
-relative_link: false
+# 使用hexo-renderer-marked插件
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 future: true
 syntax_highlighter: highlight.js
 highlight:
@@ -102,3 +105,4 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
