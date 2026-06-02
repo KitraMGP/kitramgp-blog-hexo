@@ -1041,6 +1041,18 @@ links:
       link: "https://sunynov.top/",
       avatar: "/img/links/suny.jpg"
     }
+    - {
+      title: "浔浔",
+      intro: "浔浔的博客（游戏开发大佬）",
+      link: "https://xungameworld.vercel.app/",
+      avatar: "/img/links/knd.jpg"
+    }
+    - {
+      title: "LyCecilion",
+      intro: "零音的博客 - CrystaRin镜雨亭",
+      link: "https://crystal.stellalyr.ink/",
+      avatar: "/img/links/lycecilion.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
