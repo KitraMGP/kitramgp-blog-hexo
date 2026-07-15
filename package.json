@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo clean && hexo generate && cd blog-deployer && cargo run",
+    "deploy": "hexo clean && hexo generate && rsync -az --delete --human-readable --itemize-changes -e \"ssh -o PreferredAuthentications=publickey -o PasswordAuthentication=no\" public/ kitra@kitramgp.cn:/var/www/kitrablog/blog/",
     "server": "hexo server"
   },
   "hexo": {

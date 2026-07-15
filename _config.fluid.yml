@@ -1053,6 +1053,12 @@ links:
       link: "https://crystal.stellalyr.ink/",
       avatar: "/img/links/lycecilion.png"
     }
+    - {
+      title: "AstralFlare",
+      intro: "深板岩酱的网站",
+      link: "https://docs.aflare.top/",
+      avatar: "/img/links/astralflare.ico"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
